@@ -18,7 +18,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=5.5 || >=7.0",
-        "sfire/framework": ">=3.0.1"
+        "sfire/framework": ">=3.0.5"
     },
     "autoload": {
         "psr-4": {

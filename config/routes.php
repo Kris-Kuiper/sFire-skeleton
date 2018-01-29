@@ -1,10 +1,16 @@
 <?php
-use sFire\Router\Router;
+use sFire\Routing\Router;
 
-#Error documents
-Router :: any('403', '403') -> setModule('App') -> setController('403') -> setAction('index') -> setViewable(false);
-Router :: any('404', '404') -> setModule('App') -> setController('404') -> setAction('index') -> setViewable(false);
+Router :: module('App') -> group(function($route) {
 
-#Home
-Router :: get('', 'home.index') -> setModule('App')  -> setController('Home')-> setAction('index');
+	#Error documents
+	$route -> viewable(false) -> controller('Error') -> group(function($route) {
+
+		$route -> any('403', '403') -> action('403');
+		$route -> any('404', '404') -> action('404');
+	});
+
+	#Home
+	$route -> get('', 'home.index') -> controller('Home') -> action('index');
+});
 ?>

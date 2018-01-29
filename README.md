@@ -1,10 +1,13 @@
 ![Logo](https://github.com/Kris-Kuiper/sFire-Framework/raw/master/sfire-logo.png)
 
-# Welcome to the *sFire Skeleton 1.0* Release!
+# Welcome to the *sFire Skeleton 1.* Release!
 
 ### System Requirements
-sFire Skeleton requires PHP 5.5 or later; we recommend using the
-latest PHP version whenever possible.
+sFire Skeleton application requires PHP 5.5.*, 5.6.*, 7.0.*, 7.1.*, 7.2.* or later; we recommend using the latest PHP version whenever possible.
+
+
+### Current version
+The current version is 1.0.2 of the sFire Skeleton application.
 
 
 ### Installation

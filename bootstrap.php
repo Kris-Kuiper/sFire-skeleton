@@ -2,9 +2,9 @@
 /**
  * sFire Framework
  *
- * @link      http://github.com/Kris-Kuiper/sFire-Framework
- * @copyright Copyright (c) 2014-2018 sFire Framework. (https://www.sfire.nl)
- * @license   http://sfire.nl/license GNU AFFERO GENERAL PUBLIC LICENSE
+ * @link      https://sfire.nl
+ * @copyright Copyright (c) 2014-2018 sFire Framework.
+ * @license   http://sfire.nl/license BSD 3-CLAUSE LICENSE
  */
 
 use sFire\Autoloader;
@@ -12,7 +12,7 @@ use sFire\Application\Application;
 use sFire\Config\Path;
 use sFire\Config\Config;
 use sFire\Config\Files;
-use sFire\Router\Router;
+use sFire\Routing\Router;
 use sFire\Handler\ErrorHandler;
 use sFire\Cookie\Cookie;
 use sFire\MVC\ViewContainer;
