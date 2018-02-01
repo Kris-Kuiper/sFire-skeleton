@@ -1,1 +1,1 @@
-Page not found
+@translate('Page not found')

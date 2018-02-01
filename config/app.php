@@ -1,4 +1,12 @@
 <?php
+/**
+ * sFire Framework
+ *
+ * @link      https://sfire.nl
+ * @copyright Copyright (c) 2014-2018 sFire Framework.
+ * @license   https://sfire.nl/license BSD 3-CLAUSE LICENSE
+ */
+ 
 use sFire\Application\Application;
 use sFire\Session\Session;
 use sFire\Session\Driver\Plain;

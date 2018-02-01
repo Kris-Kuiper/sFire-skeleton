@@ -1,1 +1,1 @@
-Forbidden
+@translate('Forbidden')
