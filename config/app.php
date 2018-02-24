@@ -9,7 +9,6 @@
  
 use sFire\Application\Application;
 use sFire\Session\Session;
-use sFire\Session\Driver\Plain;
 
 
 //Salt
@@ -112,9 +111,8 @@ Application :: add('services', [
 	
 	'session' => function() {
 
-		$driver = new Plain();
 		$session = new Session();
-		$session -> setDriver($driver);
+		$session -> setDriver('Plain');
 
 		return $session;
 	}
