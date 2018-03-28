@@ -7,7 +7,7 @@ sFire Skeleton application requires PHP 5.5.*, 5.6.*, 7.0.*, 7.1.*, 7.2.* or lat
 
 
 ### Current version
-The current version is 1.0.4 of the sFire Skeleton application.
+The current version is 1.0.5 of the sFire Skeleton application.
 
 
 ### Installation

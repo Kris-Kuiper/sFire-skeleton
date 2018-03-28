@@ -15,6 +15,10 @@ use sFire\Session\Session;
 Application :: add('salt', null);
 
 
+//Set encoding
+Application :: add('encoding', 'utf-8');
+
+
 //Load modules
 Application :: add('modules', ['App']);
 
