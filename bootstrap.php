@@ -179,7 +179,7 @@ class Bootstrap {
 	 * Destructor
 	 */
 	public function __destruct() {
-		
+
 		foreach(ViewContainer :: getViews() as $viewmodel) {
 			ViewContainer :: output($viewmodel);
 		}

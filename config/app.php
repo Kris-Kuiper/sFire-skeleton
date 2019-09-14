@@ -51,7 +51,8 @@ Application :: add('prefix', [
 	'mapper' 		=> 'Mapper',
 	'dbtable' 		=> 'DBTable',
 	'schedule' 		=> 'Schedule',
-	'action'		=> 'action'
+	'action'		=> 'action',
+	'middleware'	=> 'Middleware'
 ]);
 
 
@@ -67,7 +68,8 @@ Application :: add('directory', [
 	'helper' 		=> 'helpers' 		. DIRECTORY_SEPARATOR,
 	'translation' 	=> 'translations' 	. DIRECTORY_SEPARATOR,
 	'validator' 	=> 'validators' 	. DIRECTORY_SEPARATOR,
-	'view' 			=> 'views' 			. DIRECTORY_SEPARATOR
+	'view' 			=> 'views' 			. DIRECTORY_SEPARATOR,
+	'middleware'	=> 'middleware'		. DIRECTORY_SEPARATOR
 ]);
 
 
