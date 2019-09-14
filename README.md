@@ -3,7 +3,7 @@
 # Welcome to the *sFire Skeleton 1.* Release!
 
 ### System Requirements
-sFire Skeleton application requires PHP 5.5.*, 5.6.*, 7.0.*, 7.1.*, 7.2.* or later; we recommend using the latest PHP version whenever possible.
+sFire Skeleton application requires PHP 5.5.*, 5.6.*, 7.0.*, 7.1.*, 7.2.*, 7.3.*, 7.4.* or later; we recommend using the latest PHP version whenever possible.
 
 
 ### Current version
